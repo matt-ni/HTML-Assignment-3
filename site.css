@@ -1,0 +1,39 @@
+h1 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 100%;
+}
+
+body {
+	background-color: chocolate;
+	font-size: 24px;
+}
+
+.images{
+	
+}
+
+.image1 {
+	display: block;
+	height: auto;
+	width: auto;
+	max-width: 400px;
+	max-height: 300px;
+	margin-left: auto;
+	float: right;
+}
+div.figure {
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}	
+
+.image2 {
+	max-width: 200px;
+
+}
