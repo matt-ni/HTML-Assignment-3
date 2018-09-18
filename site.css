@@ -7,14 +7,16 @@ h1#1 {
 h1 {
 	text-align: center
 }
-	
+
+/* Setting the font, background color, font size*/
 body {
 	background-color: chocolate;
 	font-size: 24px;
 	font-family: Comic Sans MS;
+	text-align: center
 }
 
-
+/* Displaying image on the right*/
 .image1 {
 	display: block;
 	height: auto;
@@ -24,6 +26,8 @@ body {
 	margin-left: auto;
 	float: right;
 }
+
+/* Making a caption*/
 div.figure {
   float: right;
   width: 20%;
@@ -37,9 +41,13 @@ div.figure {
 
 .image2 {
 	max-width: 200px;
-	
 }
 
+table, th, tr, td {
+	border: 1px solid black;
+}
+
+/* Making certain word red */
 .obesity{
 	color: red;
 }
@@ -57,24 +65,24 @@ div.Chocolate-facts-2{
 	text-align: center;
 }
 
-/* unvisited link */
+/* Unvisited link 1*/
 a#a1:link{
     color: black;
 }
 
 
-/* mouse over link 1*/
+/* Mouse over link 1*/
 a#a1:hover{
     color: green;
 }
 
-/* unvisited link */
+/* Unvisited link 2*/
 a#a2:link{
     color: black;
 }
 
 
-/* mouse over link 2*/
+/* Mouse over link 2*/
 a#a2:hover{
 	color: red;
 }
@@ -82,7 +90,8 @@ a#a2:hover{
 div.chocolate-links{
 	text-align: center;
 }
-	
+
+/* hides audio player*/	
 audio{
 	display: none;
 }
@@ -91,6 +100,7 @@ div.dance{
 	text-align: center;
 }
 
+/* Center Align gif*/
 #chicken{
 	display: block;
 	margin-left: auto;
