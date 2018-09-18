@@ -81,3 +81,7 @@ a#a2:hover {
 div.chocolate-links{
 	text-align: center;
 }
+
+audio{
+	display: none;
+}
