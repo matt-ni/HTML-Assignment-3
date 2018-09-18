@@ -7,6 +7,7 @@ h1 {
 body {
 	background-color: chocolate;
 	font-size: 24px;
+	font-family: Comic Sans MS;
 }
 
 .images{
@@ -35,5 +36,48 @@ div.figure {
 
 .image2 {
 	max-width: 200px;
+	
+}
 
+.obesity{
+	color: red;
+}
+
+div.Chocolate-facts-1, div.chocolate-facts-header{
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Chocolate-facts-2{
+	text-align: center;
+}
+
+/* unvisited link */
+a#a1:link {
+    color: black;
+}
+
+
+/* mouse over link 1*/
+a#a1:hover {
+    color: green;
+}
+
+/* unvisited link */
+a#a2:link {
+    color: black;
+}
+
+
+/* mouse over link 2*/
+a#a2:hover {
+	color: red;
+}
+
+div.chocolate-links{
+	text-align: center;
 }
